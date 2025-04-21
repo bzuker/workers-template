@@ -6,7 +6,7 @@ import {
 	IconUserCircle,
 } from "@tabler/icons-react";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@components/ui/avatar";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -15,13 +15,13 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@components/ui/dropdown-menu";
 import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/components/ui/sidebar";
+} from "@components/ui/sidebar";
 import {
 	authClient,
 	sessionQueryOptions,

@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "revital-hq",
+	"name": "your-worker-name",
 	"main": "./src/api/index.ts",
 	"compatibility_date": "2024-11-01",
 	"compatibility_flags": ["nodejs_compat"],
@@ -16,14 +16,14 @@
 		"binding": "ASSETS",
 		"not_found_handling": "single-page-application"
 	},
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "revital-hq-db",
-			"database_id": "cba874c4-4d59-465e-a9d2-046115519f75",
-			"migrations_dir": "./src/api/db/drizzle"
-		}
-	]
+	// "d1_databases": [
+	// 	{
+	// 		"binding": "DB",
+	// 		"database_name": "your-database-name",
+	// 		"database_id": "your-database-id",
+	// 		"migrations_dir": "./src/api/db/drizzle"
+	// 	}
+	// ]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement

@@ -25,7 +25,8 @@
 		/* Paths */
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./src/client/*"]
+			"@/*": ["./src/*"],
+			"@components/*": ["./src/client/components/*"],
 		}
 	},
 	"include": ["src/client"]
